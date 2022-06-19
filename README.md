@@ -17,4 +17,4 @@ Select a internal user
 
 Before click any test button, login the internal user in another browser window.
 
-![image](notify.png)
+![](static/images/notify.png)
