@@ -29,6 +29,7 @@
                   type="object"
                   string="Test warning notification"
                   class="oe_highlight"
+		  options="{&quot;stick&quot;:true, &quot;message&quot;: &quot;helloworld&quot;}"
                   />
             </group>
             <group>

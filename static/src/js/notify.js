@@ -13,10 +13,9 @@ const webNotifyService = {
                       "notify_default"];
         env.bus.on("WEB_CLIENT_READY", null, async () => {
             const legacyEnv = owl.Component.env;
+	    //env.services.legacy_bus_service.onNotification(this, (notifications) => {
             legacyEnv.services.bus_service.onNotification(this, (notifications) => {
-v.services);
-            //env.services.legacy_bus_service.onNotification(this, (notifications) => {
-                for (const { payload, type } of notifications) {
+		for (const { payload, type } of notifications) {
                     if (_types.indexOf(type) != -1) {
                         notification.add(payload.message, {
 			    type: payload.type,

@@ -5,7 +5,7 @@
     "summary": """
     Send notification messages to internal user""",
     "version": "15.0",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "author": "Guijin Ding",
     "development_status": "Production/Stable",
     "website": "https://github.com/dingguijin/odoo-web-notify",
@@ -13,7 +13,7 @@
     "data": ["views/res_users.xml"],
     "demo": [],
     "assets": {
-        "web.assets_backend": ['web_notify/static/src/js/web_notify.js']
+        "web.assets_backend": ['odoo-web-notify/static/src/js/notify.js']
     },
     "installable": True,
     "application": True
