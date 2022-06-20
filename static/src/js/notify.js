@@ -17,10 +17,10 @@ const webNotifyService = {
             legacyEnv.services.bus_service.onNotification(this, (notifications) => {
 		for (const { payload, type } of notifications) {
                     if (_types.indexOf(type) != -1) {
-                        notification.add(payload.message, {
+                        notification.add(payload.message.message, {
 			    type: payload.type,
-			    title: payload.type,
-                            sticky: payload.sticky,
+			    title: payload.title,
+                            sticky: payload.message.sticky,
                             onClose: function() {
                                 console.log("close notification");
                             },
