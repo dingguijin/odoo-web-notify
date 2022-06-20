@@ -8,12 +8,12 @@
     "license": "LGPL-3",
     "author": "Guijin Ding",
     "development_status": "Production/Stable",
-    "website": "https://github.com/dingguijin/odoo-web-notify",
+    "website": "https://github.com/dingguijin/odoo_web_notify",
     "depends": ["web", "bus", "base"],
     "data": ["views/res_users.xml"],
     "demo": [],
     "assets": {
-        "web.assets_backend": ['odoo-web-notify/static/src/js/notify.js']
+        "web.assets_backend": ['odoo_web_notify/static/src/js/notify.js']
     },
     "installable": True,
     "application": True
